@@ -1,0 +1,14 @@
+{
+    "teleport": {
+        "category": "blocks",
+        "sounds": [
+            "rg:teleport"
+        ]
+    },
+    "portal": {
+        "category": "blocks",
+        "sounds": [
+            "rg:portal"
+        ]
+    }
+}

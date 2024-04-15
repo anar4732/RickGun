@@ -1,0 +1,9 @@
+{
+    "overrides": [
+        { "predicate": { "level": 0 }, "model": "rg:item/capsule_0" },
+        { "predicate": { "level": 1 }, "model": "rg:item/capsule_1" },
+        { "predicate": { "level": 2 }, "model": "rg:item/capsule_2" },
+        { "predicate": { "level": 3 }, "model": "rg:item/capsule_3" },
+        { "predicate": { "level": 4 }, "model": "rg:item/capsule_4" }
+    ]
+}

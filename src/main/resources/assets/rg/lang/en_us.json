@@ -1,0 +1,9 @@
+{
+    "item.rg.portal_gun": "Portal Gun",
+    "item.rg.capsule": "Portal Capsule",
+    "key.categories.rg": "Rick's Portal Gun Mod",
+    "key.portalGunConfig": "Open Portal Gun Config",
+    "key.ResetPortals": "Reset Portals",
+    "item.rg.portal_gun.tooltip": "Use %s to open the config, %s to reset portals, Shift+Right Click to take in/out the capsule from your offhand",
+    "item.rg.capsule.tooltip": "Fill this capsule with ender pearls in crafting to start creating portals"
+}

@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        { "predicate": { "level": -1 }, "model": "rg:item/portal_gun_nc" },
+        { "predicate": { "level": 0 }, "model": "rg:item/portal_gun_0" },
+        { "predicate": { "level": 1 }, "model": "rg:item/portal_gun_1" },
+        { "predicate": { "level": 2 }, "model": "rg:item/portal_gun_2" },
+        { "predicate": { "level": 3 }, "model": "rg:item/portal_gun_3" },
+        { "predicate": { "level": 4 }, "model": "rg:item/portal_gun_4" }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"6": "rg:item/capsule/texture7",
+		"8": "rg:item/capsule/texture9",
+		"9": "rg:item/capsule/texture10",
+		"16": "rg:item/capsule/texture15",
+		"particle": "rg:item/capsule/texture7"
+	},
+	"elements": [
+		{
+			"name": "Fluid",
+			"from": [6.97, 6.9949, 3.77],
+			"to": [9.055, 8.9474, 5.87],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 3.5], "texture": "#16"},
+				"east": {"uv": [3, 0, 5.5, 3.5], "texture": "#16"},
+				"south": {"uv": [0, 4, 2.5, 7.5], "texture": "#16"},
+				"west": {"uv": [3, 4, 5.5, 7.5], "texture": "#16"},
+				"up": {"uv": [8.5, 2.5, 6, 0], "texture": "#16"},
+				"down": {"uv": [8.5, 3, 6, 5.5], "texture": "#16"}
+			}
+		},
+		{
+			"from": [6.844, 6.358, 3.676],
+			"to": [9.164, 6.9965, 5.956],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.11909, 0, -0.85053]},
+			"faces": {
+				"north": {"uv": [6, 0, 11, 1], "texture": "#9"},
+				"east": {"uv": [6, 2, 11, 3], "texture": "#9"},
+				"south": {"uv": [6, 4, 11, 5], "texture": "#9"},
+				"west": {"uv": [6, 6, 11, 7], "texture": "#9"},
+				"up": {"uv": [5, 5, 0, 0], "texture": "#9"},
+				"down": {"uv": [5, 6, 0, 11], "texture": "#9"}
+			}
+		},
+		{
+			"from": [7.34, 6.13, 4.176],
+			"to": [8.66, 6.53, 5.456],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.62309, 0, -0.85053]},
+			"faces": {
+				"north": {"uv": [4, 0, 7, 1], "texture": "#6"},
+				"east": {"uv": [4, 2, 7, 3], "texture": "#6"},
+				"south": {"uv": [4, 4, 7, 5], "texture": "#6"},
+				"west": {"uv": [4, 6, 7, 7], "texture": "#6"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#6"},
+				"down": {"uv": [3, 4, 0, 7], "texture": "#6"}
+			}
+		},
+		{
+			"name": "Capsule",
+			"from": [6.86011, 6.99486, 3.67498],
+			"to": [9.13989, 11.09226, 5.95475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.11909, 0, -0.85053]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 3.5], "texture": "#8"},
+				"east": {"uv": [3, 0, 5.5, 3.5], "texture": "#8"},
+				"south": {"uv": [0, 4, 2.5, 7.5], "texture": "#8"},
+				"west": {"uv": [3, 4, 5.5, 7.5], "texture": "#8"},
+				"up": {"uv": [8.5, 2.5, 6, 0], "texture": "#8"},
+				"down": {"uv": [8.5, 3, 6, 5.5], "texture": "#8"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, -0.38, -180],
+			"translation": [0, 0.75, -0.75],
+			"scale": [0.5185, 0.5185, 0.60146]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-179.25, 0, -180],
+			"translation": [0, 0.75, -0.75],
+			"scale": [0.5185, 0.5185, 0.60146]
+		},
+		"firstperson_righthand": {
+			"rotation": [176, 3, 178],
+			"translation": [-5.25, 5.5, 5],
+			"scale": [0.5185, 0.5185, 0.5185]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7, -12, 0],
+			"translation": [-5.25, 5.5, 8],
+			"scale": [0.5185, 0.5185, 0.5185]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.5185, 0.5185, 0.60146]
+		},
+        "gui": {
+            "rotation": [12, 47.5, 0],
+            "translation": [4.5, -3, 0],
+            "scale": [2.3, 2, 2]
+        },
+		"head": {
+			"translation": [0, 2.5, -2]
+		},
+		"fixed": {
+			"translation": [0, 0, 6.25],
+			"scale": [2.3, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Portal gun edge",
+			"origin": [-0.7108, 0, 0.2456],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Portal lights",
+			"origin": [1.5, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "portal fluid",
+			"origin": [5.31446, 0, 5.31446],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3]
+		}
+	]
+}
